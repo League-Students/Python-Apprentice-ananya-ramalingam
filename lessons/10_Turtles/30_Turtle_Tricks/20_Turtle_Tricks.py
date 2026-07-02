@@ -17,7 +17,8 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.forward(15)
 
 
-jls_extract_def().forward(10)
+tina.forward(10)
+tina.left(25)
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
