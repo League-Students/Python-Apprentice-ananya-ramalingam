@@ -15,7 +15,11 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.circle(39)
-tina.forward
+def jls_extract_def():
+    return tina
+
+
+jls_extract_def().forward(10)
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
