@@ -18,7 +18,7 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(4)                           # Move at a moderate speed, not too fast.
+tina.speed(2)                           # Move at a moderate speed, not too fast.
 
 # Repeat forward + left three more times to finish the square.
 tina.forward(150)                       # Move tina forward by the forward distance
