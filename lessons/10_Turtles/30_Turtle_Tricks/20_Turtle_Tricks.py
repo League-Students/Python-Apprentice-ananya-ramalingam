@@ -15,6 +15,7 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.circle(39)
+tina.
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
