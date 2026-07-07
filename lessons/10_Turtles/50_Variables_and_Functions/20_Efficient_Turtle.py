@@ -16,7 +16,7 @@ tina = turtle.Turtle()                   # Create a turtle named tina
 tina.shape('turtle')                     # Set the shape of the turtle to a turtle
 tina.speed(2)                            # Move at a moderate speed, not too fast.
 
-def draw_polygon(sides):
+def draw_polygon( 4 sides):
 
     angle = ...                          # Calculate angle from number of sides
     
@@ -24,9 +24,9 @@ def draw_polygon(sides):
         ...                              # Move tina forward by the forward distance
         ...                              # Turn tina left by the left turn
 
-draw_polygon(square)                        # Draw a square
+draw_polygon(4)                        # Draw a square
 
-tina.got(15,150)
+tina.goto(15,150)
 
 
 ...                                      # Move tina to another spot on the screen = jls_extract_def()
