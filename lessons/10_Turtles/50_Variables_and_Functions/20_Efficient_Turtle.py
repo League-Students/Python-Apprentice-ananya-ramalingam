@@ -20,13 +20,16 @@ def draw_polygon(sides):
 
     angle = ...                          # Calculate angle from number of sides
     
-    for i in range(...):                 # Loop through the number of sides
+    for i in range(15):                 # Loop through the number of sides
         ...                              # Move tina forward by the forward distance
         ...                              # Turn tina left by the left turn
 
-draw_polygon(...)                        # Draw a square
+draw_polygon(square)                        # Draw a square
 
-...                                      # Move tina to another spot on the screen
+tina.got()
+
+
+...                                      # Move tina to another spot on the screen = jls_extract_def()
 
 draw_polygon(...)                        # Draw a pentagon
 
