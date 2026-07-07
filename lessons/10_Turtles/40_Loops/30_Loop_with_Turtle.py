@@ -16,5 +16,5 @@ import turtle
 
 turtle.goto(29, 150)
 
-turtle.forward(150)
-
+turtle.cicle(150)
+turtle.forward(15)
