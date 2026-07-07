@@ -26,7 +26,7 @@ def draw_polygon(sides):
 
 draw_polygon(square)                        # Draw a square
 
-tina.got()
+tina.got(15,150)
 
 
 ...                                      # Move tina to another spot on the screen = jls_extract_def()
