@@ -20,4 +20,4 @@ turtle.goto(29, 150)
 for i in range(100):
 
     turtle.circle(150)
-turtle.forward(15)
+(turtle).forward(15)
