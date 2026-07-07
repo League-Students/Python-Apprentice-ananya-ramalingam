@@ -14,7 +14,7 @@ name: Loop With Turtle
 
 import turtle
 
-turtle.goto(29, )
+turtle.goto(29, 150)
 
 turtle.forward(150)
 
