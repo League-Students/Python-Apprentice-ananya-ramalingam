@@ -31,10 +31,10 @@ tina.goto(15,150)
 
 ...                                      # Move tina to another spot on the screen = jls_extract_def()
 
-draw_polygon(...)                        # Draw a pentagon
+draw_polygon(5)                        # Draw a pentagon
 
 ...                                      # Move tina to another spot on the screen
 
-draw_polygon(...)                        # Draw a hexagon
+draw_polygon(6)                        # Draw a hexagon
 
 turtle.exitonclick()                     # Close the window when we click on it
