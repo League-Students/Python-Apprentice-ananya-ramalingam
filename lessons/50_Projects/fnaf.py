@@ -44,21 +44,21 @@ def open_cam_3():
     global cam_num
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
-    
+    show_animatronics
 def open_cam_4():
     global cam_num
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
-
+    show_animatronics
 def open_cam_5():
     global cam_num
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
-
+    show_animatronics
 def exit_cam():
     print("cam exited")
     screen.bgcolor("yellow")
-
+    
 screen.listen()
 screen.onkey(open_cam_1, "1")
 screen.onkey(open_cam_2, "2")
