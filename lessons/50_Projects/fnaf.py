@@ -23,7 +23,7 @@ def open_cam_1():
 
   screen.bgcolor(cam_colors[0])
 
-    def open_cam_2():
+def open_cam_2():
 print("cam 2 open")
 
 screen.bgcolor(cam_colors[1])
