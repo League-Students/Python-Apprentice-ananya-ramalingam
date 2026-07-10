@@ -4,7 +4,8 @@ import turtle
 tina = turtle.Turtle
 
 tina.shape("turtle")
-
+tina_path =[1,2,3,4,5]
+tina_progress
 
 screen = turtle.Screen()
 screen.setup(500, 500)
