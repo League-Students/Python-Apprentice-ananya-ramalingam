@@ -30,14 +30,17 @@ def open_cam_1():
   screen.bgcolor(cam_colors[0])
 
 def open_cam_2():
+    global cam_num
     print("cam 2 open")
     screen.bgcolor(cam_colors[1])
 
 def open_cam_3():
+    global cam_num
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
 
 def open_cam_4():
+    
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
 
