@@ -1,5 +1,6 @@
 
 import turtle
+import time
 
 tina = turtle.Turtle()
 
@@ -40,11 +41,12 @@ def open_cam_3():
     screen.bgcolor(cam_colors[2])
 
 def open_cam_4():
-    
+    global cam_num
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
 
 def open_cam_5():
+    global cam_num
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
 
