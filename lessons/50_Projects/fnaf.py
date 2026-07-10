@@ -71,4 +71,4 @@ screen.onkey(exit_cam, "0")
 
 screen.ontimer(move_tina)
 
-turtle.exitonclick(1)
+turtle.exitonclick()
