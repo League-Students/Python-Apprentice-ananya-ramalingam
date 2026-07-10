@@ -1,7 +1,7 @@
 
 import turtle
 
-tina = turtle.Turtle
+tina = turtle.Turtle()
 
 tina.shape("turtle")
 tina_path =[1,2,3,4,5]
@@ -48,5 +48,6 @@ screen.onkey(open_cam_2, "2")
 screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
+screen
 
-turtle.exitonclick
+turtle.exitonclick(1)
