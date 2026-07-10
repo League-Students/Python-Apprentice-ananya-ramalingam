@@ -43,15 +43,18 @@ def open_cam_2():
 
 def open_cam_3():
     global cam_num
+    cam_num = 3
     print("cam 3 open")
     screen.bgcolor(cam_colors[2])
     show_animatronics
 def open_cam_4():
+    cam_num = 4
     global cam_num
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
     show_animatronics
 def open_cam_5():
+    cam_num = 5
     global cam_num
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
