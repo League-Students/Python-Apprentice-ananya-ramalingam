@@ -29,7 +29,7 @@ def show_animatronics(cam_num):
 
 def open_cam_1():
     global cam_num
-  print("cam 1 open")
+    print("cam 1 open")
   screen.bgcolor(cam_colors[0])
 
 def open_cam_2():
