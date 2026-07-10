@@ -13,6 +13,8 @@ screen.setup(500, 500)
 cam_colors = ["red", "black","white", "blue","green"]
 
 def show_animatronics(cam_num):
+if(cam_num ==)
+
 def open_cam_1():
   print("cam 1 open")
 
