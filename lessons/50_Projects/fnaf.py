@@ -32,7 +32,7 @@ screen.bgcolor(cam_colors[3])
     def open_cam_5():
 print("cam 5 open")
 
-def exit_cam 
+def exit_cam()
 
   screen.bgcolor(cam_colors[4])
 
