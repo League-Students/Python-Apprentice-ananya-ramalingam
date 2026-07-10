@@ -34,7 +34,8 @@ print("cam 5 open")
 
 def exit_cam()
 
-print("cam eex")
+print("cam exited")
+screen.bgcolor("yellow")
 
   screen.bgcolor(cam_colors[4])
 
