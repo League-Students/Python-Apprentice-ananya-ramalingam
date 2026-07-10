@@ -36,17 +36,14 @@ def open_cam_4():
 
 def open_cam_5():
     print("cam 5 open")
-    
+    screen.bgcolor(cam_colors[4])
 
-def exit_cam()
+def exit_cam():
+    print("cam exited")
+    screen.bgcolor("yellow")
 
-print("cam exited")
-screen.bgcolor("yellow")
-
-  screen.bgcolor(cam_colors[4])
-
-  screen.listen()
-  screen.onkey(open_cam_1, "1")
+screen.listen()
+screen.onkey(open_cam_1, "1")
 screen.onkey(open_cam_2, "2")
 screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
