@@ -20,7 +20,7 @@ def move_tina():
     show_animatronics()
     screen.ontimer(move_tina,2000)
 
-def show_animatronics(cam_num):
+def show_animatronics():
     global cam_num 
     if  (cam_num == tina_path[tina_progress]):
         tina.showturtle()
@@ -36,7 +36,6 @@ def open_cam_1():
 def open_cam_2():
     global cam_num
     cam_num = 2
-
     screen.bgcolor(cam_colors[1])
     show_animatronics()
 
@@ -47,14 +46,14 @@ def open_cam_3():
     screen.bgcolor(cam_colors[2])
     show_animatronics()
 def open_cam_4():
-    cam_num = 4
     global cam_num
+    cam_num = 4
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
     show_animatronics()
 def open_cam_5():
-    cam_num = 5
     global cam_num
+    cam_num = 5
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
     show_animatronics()
